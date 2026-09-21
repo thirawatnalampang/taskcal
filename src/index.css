@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root { font-family: Inter, "Noto Sans Thai", system-ui, sans-serif; color: #20203a; background: #f7f8ff; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+.scrollbar::-webkit-scrollbar { width: 7px; height: 7px; }
+.scrollbar::-webkit-scrollbar-thumb { background: #d7d8ef; border-radius: 99px; }
